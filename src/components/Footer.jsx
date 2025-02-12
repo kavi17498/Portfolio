@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 py-10 px-5">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-        
+      <img src={logo} width={100} height={100} alt="Logo" className="mb-4"/>
         {/* Left Section - Logo & Info */}
         <div className="mb-6 md:mb-0">
-        <img src={logo} width={100} height={100} alt="Logo" className="mb-4"/>
+        
           <h2 className="text-2xl font-bold text-white">Kavindu Lakshan</h2>
           <p className="mt-2 text-sm">Building Future-Ready Apps & Websites</p>
           
